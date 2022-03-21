@@ -1,13 +1,6 @@
-.button {
-    background: #fff;
-    color: #6b705c;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    border: #6b705c 1px solid;
+li {
+    color: darkgoldenrod;
 }
-
-.button:hover {
-    background: #a5a58d;
-    color: #fff;
+li:nth-child(3n) {
+    color: #6b705c;
 }
